@@ -30,7 +30,6 @@ public class Topic_01_CheckEnvironment {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
-		///wefwefwaef
 	}
 
 	@AfterClass
