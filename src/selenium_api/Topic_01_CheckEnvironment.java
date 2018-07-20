@@ -40,7 +40,7 @@ public class Topic_01_CheckEnvironment {
 	}
     /////////////////////////////////////////////////////////////////////////////
     
-	@Test(enabled = false)
+	@Test 
 	public void TC_01_CheckUrlAndTitle() {
 				
 		//Check home page title
@@ -65,7 +65,7 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	//////////////////////////////////////////////////////////////////////////////////
-	@Test (enabled = false)
+	@Test 
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		
 		
@@ -88,7 +88,7 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	
-	@Test (enabled = false)
+	@Test 
 	public void TC_03_LoginWithInvalidEmail() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");
@@ -102,20 +102,21 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	
-	@Test (enabled = false)
+	@Test
 	public void TC_04_LoginWithInvalidPassword() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("automation@gmail.com");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("123");
 		driver.findElement(By.xpath("//button[@id='send2']")).click();
-		msgActual = driver.findElement(By.xpath(".//div[@id='advice-required-entry-pass']")).getText();
+		msgActual = driver.findElement(By.xpath("//div[@id='advice-validate-password-pass']")).getText();
 		String msgExpect = "Please enter 6 or more characters without leading or trailing spaces.";
 		Assert.assertEquals(msgActual, msgExpect);	
 		
 	}
-	@Test 
+	@Test
 	public void TC_05_CreateAnAccount() throws InterruptedException {
 		//Thread.sleep(2000);
 	    String randomEmail = randomEmail();
@@ -129,7 +130,16 @@ public class Topic_01_CheckEnvironment {
 		driver.findElement(By.xpath("//input[@id='email_address']")).sendKeys(randomEmail);
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Linhtest01");
 		driver.findElement(By.xpath("//input[@id='confirmation']")).sendKeys("Linhtest01");
-		driver.findElement(By.xpath("//button[@title='Register']")).click();	
+		driver.findElement(By.xpath("//button[@title='Register']")).click();
+		msgActual = driver.findElement(By.xpath("//*[@id='top']/body/div/div/div[2]/div/div[2]/div/div/ul/li/ul/li")).getText();
+		Assert.assertEquals(msgActual, "Thank you for registering with Main Website Store.");
+		driver.findElement(By.xpath("//a[@class='skip-link skip-account']")).click();
+		driver.findElement(By.xpath("//a[@title='Log Out']")).click();
+		driver.findElement(By.xpath("//a[@class='logo']")).click();
+		String URLhome = driver.getCurrentUrl();
+		System.out.println(URLhome);
+		Assert.assertEquals(URLhome, "http://live.guru99.com/index.php/");		
+		
 		
 	}
 	private static String randomEmail() {
@@ -142,7 +152,7 @@ public class Topic_01_CheckEnvironment {
 
 	@AfterClass
 	public void afterClass() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }
