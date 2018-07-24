@@ -1,15 +1,10 @@
 package selenium_api;
 
-import static org.junit.Assert.assertArrayEquals;
 
-import java.util.Random;
 import java.util.UUID;
-import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
-import org.bouncycastle.crypto.prng.RandomGenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -17,7 +12,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.sun.java_cup.internal.runtime.Scanner;
 
 public class Topic_01_CheckEnvironment {
     WebDriver driver;
