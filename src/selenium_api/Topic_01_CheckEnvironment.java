@@ -32,7 +32,6 @@ public class Topic_01_CheckEnvironment {
 		driver.manage().window().maximize();
 		
 	}
-    /////////////////////////////////////////////////////////////////////////////
     
 	@Test 
 	public void TC_01_CheckUrlAndTitle() {
@@ -58,7 +57,7 @@ public class Topic_01_CheckEnvironment {
 		Assert.assertEquals(URLcreate, "http://live.guru99.com/index.php/customer/account/create/");		
 		
 	}
-	//////////////////////////////////////////////////////////////////////////////////
+	
 	@Test 
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		

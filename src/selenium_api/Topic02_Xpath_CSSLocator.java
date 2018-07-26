@@ -34,7 +34,7 @@ public class Topic02_Xpath_CSSLocator {
 	}
     /////////////////////////////////////////////////////////////////////////////
     
-	@Test 
+	@Test (enabled = false)
 	public void TC_01_CheckUrlAndTitle() {
 				
 		//Check home page title
@@ -59,7 +59,7 @@ public class Topic02_Xpath_CSSLocator {
 		
 	}
 	//////////////////////////////////////////////////////////////////////////////////
-	@Test 
+	@Test (enabled = false)
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		
 		
@@ -82,7 +82,7 @@ public class Topic02_Xpath_CSSLocator {
 		
 	}
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_03_LoginWithInvalidEmail() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");
@@ -113,7 +113,6 @@ public class Topic02_Xpath_CSSLocator {
 	@Test
 	public void TC_05_CreateAnAccount() throws InterruptedException {
 		//Thread.sleep(2000);
-	    String randomEmail = randomEmail();
 		driver.get("http://live.guru99.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
@@ -121,7 +120,7 @@ public class Topic02_Xpath_CSSLocator {
 		driver.findElement(By.xpath("//input[@id='firstname']")).sendKeys("Linh");
 		driver.findElement(By.xpath("//input [@id='middlename']")).sendKeys("Thao");
 		driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys("Nguyen");
-		driver.findElement(By.xpath("//input[@id='email_address']")).sendKeys(randomEmail);
+		driver.findElement(By.xpath("//input[@id='email_address']")).sendKeys(RandomEmail.getRandomEmail());
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Linhtest01");
 		driver.findElement(By.xpath("//input[@id='confirmation']")).sendKeys("Linhtest01");
 		driver.findElement(By.xpath("//button[@title='Register']")).click();
@@ -136,10 +135,7 @@ public class Topic02_Xpath_CSSLocator {
 		
 		
 	}
-	private static String randomEmail() {
-        return "random-" + UUID.randomUUID().toString() + "@example.com";
-    }
-	
+
 	
 	
 

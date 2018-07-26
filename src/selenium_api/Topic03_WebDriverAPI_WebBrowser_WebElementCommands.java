@@ -62,7 +62,7 @@ public class Topic03_WebDriverAPI_WebBrowser_WebElementCommands {
 		}
 		else {
 			System.out.println("Element is disbale");
-		}
+	
 		if(driver.findElement(By.cssSelector("#job1")).isEnabled()) {
 			System.out.println("Element is enabled");
 		}
