@@ -1,15 +1,9 @@
 package selenium_api;
 
-import static org.junit.Assert.assertArrayEquals;
-
-import java.util.Random;
 import java.util.UUID;
-import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
-import org.bouncycastle.crypto.prng.RandomGenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -17,7 +11,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.sun.java_cup.internal.runtime.Scanner;
 
 public class Topic_01_CheckEnvironment {
     WebDriver driver;
@@ -30,7 +23,7 @@ public class Topic_01_CheckEnvironment {
 		driver = new FirefoxDriver();
 		}
 		if(OS.indexOf("mac") >=0 ) {
-			System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "//driver//chromedriver");
 			driver = new ChromeDriver();
 		}
 		driver.get("http://live.guru99.com");
@@ -65,7 +58,7 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	//////////////////////////////////////////////////////////////////////////////////
-	@Test 
+	@Test (enabled = false)
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		
 		
@@ -88,7 +81,7 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_03_LoginWithInvalidEmail() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");
@@ -102,7 +95,7 @@ public class Topic_01_CheckEnvironment {
 		
 	}
 	
-	@Test
+	@Test (enabled = false)
 	public void TC_04_LoginWithInvalidPassword() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");
@@ -116,7 +109,7 @@ public class Topic_01_CheckEnvironment {
 		Assert.assertEquals(msgActual, msgExpect);	
 		
 	}
-	@Test
+	@Test (enabled = false)
 	public void TC_05_CreateAnAccount() throws InterruptedException {
 		//Thread.sleep(2000);
 	    String randomEmail = randomEmail();
