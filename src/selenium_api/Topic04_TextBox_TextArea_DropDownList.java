@@ -2,15 +2,10 @@ package selenium_api;
 
 import org.testng.annotations.Test;
 
-import com.thoughtworks.selenium.webdriven.commands.Submit;
 
 import org.testng.annotations.BeforeClass;
-
-import static org.junit.Assert.assertTrue;
-
-import java.util.Random;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -71,7 +66,7 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		 
 	  }
 	 
-	 @Test
+	 @Test (enabled = false)
 	 public void TC02_HandleTextbox_TextArea() throws InterruptedException {
 		 Customer cus = new Customer();
 		 driver.get("http://demo.guru99.com/v4");
@@ -143,6 +138,50 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		 
 		 	 
 	 }
+	 
+	 
+	 @Test (enabled = false)
+	  public void TC03_HandleCustomDropdownList() {
+		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
+		 List<WebElement> listNumber = driver.findElements(By.xpath("//*[@id=\"number\"]/option"));
+		 WebElement element = driver.findElement(By.xpath("//*[@id=\"number\"]"));
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].removeAttribute('style')", element);
+		 for(int i = 0; i < listNumber.size(); i++) {
+			 System.out.println(listNumber.get(i).getAttribute("value"));
+			 int temp = Integer.parseInt(listNumber.get(i).getAttribute("value"));
+			 System.out.println(temp);
+			 if (temp == 19) {
+				 System.out.println(temp);
+				 listNumber.get(i).click();             
+		         break;
+		        }
+		 }
+	 }
+	 
+	 
+	 @Test 
+	  public void TC04_HandleCustomDropdownList() {
+		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
+		 List<WebElement> listNumber = driver.findElements(By.xpath("//*[@id=\"number\"]/option"));
+		 WebElement element = driver.findElement(By.id("id_of_element"));
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		 for(int i = 0; i < listNumber.size(); i++) {
+			 System.out.println(listNumber.get(i).getAttribute("value"));
+			 int temp = Integer.parseInt(listNumber.get(i).getAttribute("value"));
+			 System.out.println(temp);
+			 if (temp == 19) {
+				 System.out.println(temp);
+				 listNumber.get(i).click();             
+		         break;
+		        }
+		 }
+	 }
+	 /*Click vào dropdown
+	 Wait để tất cả phần tử trong dropdown được hiển thị
+	 Get tất cả item trong dropdown vào 1 list element (List <WebElement>)
+	 Dùng vòng lặp for duyệt qua từng phần tử sau đó getText
+	 Nếu actual text = expected text thì click vào phần tử đó và break khỏi vòng lặp */
+	 
 
 	 @AfterClass
 	  public void afterClass() {
