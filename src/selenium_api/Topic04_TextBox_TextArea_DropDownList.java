@@ -12,19 +12,16 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
+import selenium_api.CustomDropDownList;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Topic04_TextBox_TextArea_DropDownList {
 	WebDriver driver;
-	String name = "LinhNguyen";
-	String birth = "15/06/1995";
-	String address = "101 Nguyen Van dau,Phuong 5, Binh Thanh, HCM";
-	String city = "hochiminh";
-	String state = "hochiminh";
-	long pin = 1234;
-	String mobileNumber = "0975151444";
-	String passWord = "Thaolinh01";
+	WebDriverWait wait;
+	CustomDropDownList customDropDownList = new CustomDropDownList();
 	
 	 @BeforeClass
 	  public void beforeClass() {
@@ -62,7 +59,6 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		 //Verify the number of dropdown list
 		 int value = select.getOptions().size();
 		 Assert.assertEquals(5, value);
-		 
 		 
 	  }
 	 
@@ -159,27 +155,30 @@ public class Topic04_TextBox_TextArea_DropDownList {
 	 
 	 
 	 @Test 
-	  public void TC04_HandleCustomDropdownList() {
+	  public void TC04_HandleCustomDropdownList() throws InterruptedException {
 		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
-		 List<WebElement> listNumber = driver.findElements(By.xpath("//*[@id=\"number\"]/option"));
-		 WebElement element = driver.findElement(By.id("id_of_element"));
-		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		 for(int i = 0; i < listNumber.size(); i++) {
-			 System.out.println(listNumber.get(i).getAttribute("value"));
-			 int temp = Integer.parseInt(listNumber.get(i).getAttribute("value"));
-			 System.out.println(temp);
-			 if (temp == 19) {
-				 System.out.println(temp);
-				 listNumber.get(i).click();             
-		         break;
-		        }
-		 }
+		 Thread.sleep(5000);
+		 driver.findElement(By.xpath("//span[@id='speed-button']")).click();
+		// driver.findElement(By.id("number-button")).click();
+		 selectCustomDropdownList("//span[@id='speed-button']", "//ul[@id='speed-menu']/li[@class='ui-menu-item']/div", "Fast");
+		 
+		 
 	 }
-	 /*Click vào dropdown
-	 Wait để tất cả phần tử trong dropdown được hiển thị
-	 Get tất cả item trong dropdown vào 1 list element (List <WebElement>)
-	 Dùng vòng lặp for duyệt qua từng phần tử sau đó getText
-	 Nếu actual text = expected text thì click vào phần tử đó và break khỏi vòng lặp */
+	 
+	 public void selectCustomDropdownList(String dropdown, String listitem, String valueitem) {
+			driver.findElement(By.xpath("//span[@id='speed-button']")).click();
+			System.out.println("linh");
+			List<WebElement> allitem = driver.findElements(By.xpath(listitem));
+			wait.until(ExpectedConditions.visibilityOfAllElements(allitem));
+			for(WebElement item : allitem) {
+				if(item.getText().equals(valueitem)) {
+					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", item);
+					item.click();
+					break;
+				}
+			}
+	 }
+
 	 
 
 	 @AfterClass
