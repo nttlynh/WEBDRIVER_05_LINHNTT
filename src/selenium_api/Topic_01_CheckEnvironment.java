@@ -1,5 +1,6 @@
 package selenium_api;
 
+
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -31,7 +32,6 @@ public class Topic_01_CheckEnvironment {
 		driver.manage().window().maximize();
 		
 	}
-    /////////////////////////////////////////////////////////////////////////////
     
 	@Test 
 	public void TC_01_CheckUrlAndTitle() {
@@ -57,8 +57,7 @@ public class Topic_01_CheckEnvironment {
 		Assert.assertEquals(URLcreate, "http://live.guru99.com/index.php/customer/account/create/");		
 		
 	}
-	//////////////////////////////////////////////////////////////////////////////////
-	@Test (enabled = false)
+
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		
 		
@@ -124,7 +123,7 @@ public class Topic_01_CheckEnvironment {
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Linhtest01");
 		driver.findElement(By.xpath("//input[@id='confirmation']")).sendKeys("Linhtest01");
 		driver.findElement(By.xpath("//button[@title='Register']")).click();
-		msgActual = driver.findElement(By.xpath("//*[@id='top']/body/div/div/div[2]/div/div[2]/div/div/ul/li/ul/li")).getText();
+		msgActual = driver.findElement(By.xpath("//span[contains(text(),'Thank you for registering')]")).getText();
 		Assert.assertEquals(msgActual, "Thank you for registering with Main Website Store.");
 		driver.findElement(By.xpath("//a[@class='skip-link skip-account']")).click();
 		driver.findElement(By.xpath("//a[@title='Log Out']")).click();
