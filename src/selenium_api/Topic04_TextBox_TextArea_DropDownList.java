@@ -12,7 +12,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 
 public class Topic04_TextBox_TextArea_DropDownList {
@@ -162,8 +164,8 @@ public class Topic04_TextBox_TextArea_DropDownList {
 	 @Test 
 	  public void TC04_HandleCustomDropdownList() {
 		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
-		 List<WebElement> listNumber = driver.findElements(By.xpath("//*[@id=\"number\"]/option"));
-		 WebElement element = driver.findElement(By.id("id_of_element"));
+		 List<WebElement> listNumber = driver.findElements(By.xpath("//span[@id=\"number\"]/option"));
+		 WebElement element = driver.findElement(By.xpath("//*[@id=\"number\"]"));
 		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		 for(int i = 0; i < listNumber.size(); i++) {
 			 System.out.println(listNumber.get(i).getAttribute("value"));
@@ -175,6 +177,43 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		         break;
 		        }
 		 }
+	 }
+	 
+	 
+	 @Test
+	 public void TC02_CustomDropdownList() {
+	  System.out.println("Start the second test!");
+	  driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
+
+	  WebElement numberDropdown = new WebDriverWait(driver, 15)
+	    .until(ExpectedConditions.elementToBeClickable(By.id("number-button")));
+	  numberDropdown.click();
+
+	  List<WebElement> options = new WebDriverWait(driver, 15)
+	    .until(ExpectedConditions.numberOfElementsToBe(By.xpath("//li[@class='ui-menu-item']/div"), 19));
+
+	  for (int i = 0; i < options.size(); i++) {
+	   String value = options.get(i).getText();
+	   if (Integer.valueOf(value) == 19) {
+	    options.get(i).click();
+	   }
+	  }
+	  
+	  try {
+	   // Wait to ensure that element is selected.
+	   Thread.sleep(5000);
+	  } catch (InterruptedException e) {
+	   // TODO Auto-generated catch block
+	   e.printStackTrace();
+	  }
+
+	  WebElement resultSelected = new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOfElementLocated(
+	    By.xpath("//span[@id='number-button']//span[@class='ui-selectmenu-text']")));
+
+	  String value = resultSelected.getText();
+
+	  Assert.assertEquals("19", value);
+
 	 }
 	 /*Click vào dropdown
 	 Wait để tất cả phần tử trong dropdown được hiển thị
