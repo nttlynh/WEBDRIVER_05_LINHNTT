@@ -78,7 +78,7 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		 driver.findElement(By.xpath("//a[contains(text(),'New Customer')]")).click();
 		 Thread.sleep(2000);
 		//input name
-		 WebElement nameElement = driver.findElement(By.xpath("//input[@onblur='validatecustomername();']"));
+		// WebElement nameElement = driver.findElement(By.xpath("//input[@onblur='validatecustomername();']"));
 		 driver.findElement(By.xpath("//input[@onblur='validatecustomername();']")).sendKeys(cus.name);
 		 
 		 //  	 gender
@@ -146,9 +146,7 @@ public class Topic04_TextBox_TextArea_DropDownList {
 		 for(int i = 0; i < listNumber.size(); i++) {
 			 System.out.println(listNumber.get(i).getAttribute("value"));
 			 int temp = Integer.parseInt(listNumber.get(i).getAttribute("value"));
-			 System.out.println(temp);
 			 if (temp == 19) {
-				 System.out.println(temp);
 				 listNumber.get(i).click();             
 		         break;
 		        }
@@ -157,28 +155,45 @@ public class Topic04_TextBox_TextArea_DropDownList {
 	 
 	 
 	 @Test 
-	  public void TC04_HandleCustomDropdownList(){
+	  public void TC04_HandleCustomDropdownList() throws InterruptedException{
 		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
 		 selectCustomDropdownList("//span[@id='speed-button']", "//ul[@id='speed-menu']//li[@class='ui-menu-item']/div", "Fast");
+		 Assert.assertTrue(driver.findElement(By.xpath("//span[@id='speed-button']//span[@class='ui-selectmenu-text' and text()='Fast']")).isDisplayed());
+		 
+		 selectCustomDropdownList("//span[@id='number-button']", "//ul[@id='number-menu']//li[@class='ui-menu-item']//div", "19");
+		 Assert.assertTrue(driver.findElement(By.xpath("//span[@id='number-button']//span[@class='ui-selectmenu-text' and text()='19']")).isDisplayed());
+		 
+		 driver.get("https://material.angular.io/components/select/examples");
+		 selectCustomDropdownList("//span[@class='mat-select-placeholder ng-tns-c21-4 ng-star-inserted']", "//mat-option//span", "Pizza");
+		 Assert.assertTrue(driver.findElement(By.xpath("//div[@class='mat-select-value']//span[text()='Pizza']")).isDisplayed());
+		 
+		 driver.get("https://material.angular.io/components/select/examples");
+		 selectCustomDropdownList("//mat-select[@placeholder='Panel color']", "//mat-option/span", "Green");
+		 //Assert.assertTrue(driver.findElement(By.xpath("//div[@class='mat-select-value']//span[text()='Green']")).isDisplayed());
 		 
 		 
 	 }
 	 
-	 public void selectCustomDropdownList(String dropdown, String listitem, String valueitem) {
-			driver.findElement(By.xpath(dropdown)).click();
-			List<WebElement> allitem = driver.findElements(By.xpath(listitem));
-			//wait.until(ExpectedConditions.visibilityOfAllElements(allitem));
-			for(WebElement item : allitem) {
-				System.out.println(item.getText());
+	 public void selectCustomDropdownList(String dropdown, String listitem, String valueitem) throws InterruptedException {
+		 WebDriverWait wait = new WebDriverWait(driver, 20);
+		 WebElement element = driver.findElement(By.xpath(dropdown));
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		 element.click();
+		// Thread.sleep(3000);
+		 List<WebElement> allitem = driver.findElements(By.xpath(listitem));
+		 wait.until(ExpectedConditions.visibilityOfAllElements(allitem));
+		 for(WebElement item : allitem) {
 				if(item.getText().equals(valueitem)) {	
-					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", item);
+					//System.out.println(driver.findElement(By.xpath("//mat-option/span")).getText());
+					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", item);	
 					item.click();
+					Thread.sleep(3000);
 					break;
-				}
 			}
+		 }
 	 }
 	 
-
+//
 	 
 
 
