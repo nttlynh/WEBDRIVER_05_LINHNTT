@@ -3,6 +3,7 @@ package selenium_api;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -29,20 +30,20 @@ public class Topic08_IFRAME_WINDOW_POPUP {
 	  }
 	
 	
-	@Test
+	@Test 
 	  public void TC01() throws InterruptedException {
 		driver.get("http://www.hdfcbank.com/");
 		// find  the total number of iframe
 		
-		int size = driver.findElements(By.tagName("iframe")).size();
 		
 		//Step 02 - Close popup nếu có hiển thị (switch qua iframe nếu có)  - F5 (refresh page) nhiều lần thì sẽ xuất hiện popup
-		By popupBy = By.id("vizury-notification-template");
-		if(isDisplayElement(popupBy)) {
-			driver.switchTo().frame(driver.findElement(popupBy));
-			driver.findElement(By.xpath("//*[@id='div-close']")).click();;
+		List<WebElement> iframeList = driver.findElements(By.xpath("//iframe[@id='vizury-notification-template']"));
+		for(int i=0;i < iframeList.size(); i++) {
+			if(iframeList.get(0).isDisplayed()) {
+				driver.switchTo().frame(0);
+				driver.close();
+			}
 		}
-		
 		//Step 03 - Verify đoạn text được hiển thị:  What are you looking for? (switch qua iframe nếu có)
 		driver.switchTo().defaultContent();
 		WebElement textElement = driver.findElement(By.xpath("//div[@class='flipBannerWrap']//iframe[starts-with(@id, 'viz_iframe')]"));
@@ -83,13 +84,82 @@ public class Topic08_IFRAME_WINDOW_POPUP {
 		Step 05 - Switch về parent window
 		*/
 	
-	@Test
+	@Test 
 	  public void TC02(){
+		//Truy cập vào trang: http://daominhdam.890m.com/
 		driver.get("http://daominhdam.890m.com/");
-		driver.findElement(By.xpath("//a[contains(text(),'Click Here')]")).click();
 		
+		//Click "Opening a new window: Click Here" link -> Switch qua tab mới
+		driver.findElement(By.xpath("//a[contains(text(),'Click Here')]")).click();
+	    ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+	    driver.switchTo().window(tabs2.get(1));
+	    
+	    
+	    //Kiểm tra title của window mới = Google
+	    String title = driver.getTitle();
+	    Assert.assertEquals(title, "Google");
+		driver.close();
+		
+		//Switch về parent window
+		driver.switchTo().window(tabs2.get(0));
+		String title01 = driver.getTitle();
+		System.out.println(title01);
+		Assert.assertEquals(driver.findElement(By.xpath("//h1")).getText(), "SELENIUM WEBDRIVER FORM DEMO");
 	}
 	
+	
+	@Test
+	public void TC03() throws InterruptedException {
+		driver.get("http://www.hdfcbank.com/");
+		String parentWindown = driver.getWindowHandle();
+		
+		//Kiểm tra và close quảng cáo nếu có xuất hiện
+		List<WebElement> iframeList = driver.findElements(By.xpath("//iframe[@id='vizury-notification-template']"));
+		for(int i=0;i < iframeList.size(); i++) {
+			if(iframeList.get(0).isDisplayed()) {
+				System.out.println("Linxh");
+				driver.switchTo().frame(0);
+				driver.close();
+			}
+		}
+		
+		//Click Angri link -> Mở ra tab/window mới -> Switch qua tab mới
+		driver.switchTo().defaultContent();
+		driver.findElement(By.xpath("//div[@class='sectionnav']//a[contains(text() , 'Agri')]")).click();
+		
+		//Step 04 - Click Account Details link -> Mở ra tab/window mới -> Switch qua tab mới
+		ArrayList<String> allWindowns = new ArrayList<>(driver.getWindowHandles());
+		driver.switchTo().window(allWindowns.get(1));
+		driver.findElement(By.xpath("//p[contains(text(),'Account Details')]")).click();
+		ArrayList<String> allWindowns02 = new ArrayList<>(driver.getWindowHandles());
+		driver.switchTo().window(allWindowns02.get(2));
+		String xxx = driver.getTitle();
+		System.out.println(xxx);
+		
+		//Step 05- Click Privacy Policy link (nằm trong frame) -> Mở ra tab/window mới -> Switch qua tab mới
+		List<WebElement> frameList = driver.findElements(By.xpath("//frame"));
+		System.out.println(frameList.size());
+		driver.switchTo().frame(1);
+		driver.findElement(By.xpath("//a[contains(text(), 'Privacy Policy')]")).click();
+		
+		//Step 06- Click CSR link on Privacy Policy page
+		for(String winHandle : driver.getWindowHandles()){
+		    driver.switchTo().window(winHandle);
+		    driver.manage().window().maximize();
+		    
+		}
+		driver.findElement(By.xpath("//a[@title='Corporate Social Responsibility']")).click();
+		
+		//Step 07- Back về Main window (Parent window)
+		//Step 08 - Close tất cả popup khác - chỉ giữ lại parent window 
+		for(String winHandle : driver.getWindowHandles()){
+		    if(!winHandle.equals(parentWindown)) {
+		    	driver.switchTo().window(winHandle);
+		    	driver.close();
+		    }
+		}
+		
+	}
 	public boolean isElementExists(By by) {
 	    boolean isExists = true;
 	    try {
