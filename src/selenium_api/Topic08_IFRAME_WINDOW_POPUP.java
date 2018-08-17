@@ -76,13 +76,6 @@ public class Topic08_IFRAME_WINDOW_POPUP {
 		
 	  }
 	
-	/*Test Script 02:
-		Step 01 - Truy cập vào trang: http://daominhdam.890m.com/
-		Step 02 - Click "Opening a new window: Click Here" link -> Switch qua tab mới
-		Step 03 - Kiểm tra title của window mới = Google
-		Step 04 - Close window mới
-		Step 05 - Switch về parent window
-		*/
 	
 	@Test 
 	  public void TC02(){

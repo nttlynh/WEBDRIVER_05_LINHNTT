@@ -7,7 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 
@@ -131,6 +130,7 @@ public class Topic03_WebDriverAPI_WebBrowser_WebElementCommands {
 			System.out.println("Element is disbale");
 		}
 					
+	}
 	}
 	
 	

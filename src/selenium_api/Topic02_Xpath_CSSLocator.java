@@ -1,7 +1,6 @@
 package selenium_api;
 
 
-import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -34,7 +33,7 @@ public class Topic02_Xpath_CSSLocator {
 	}
     /////////////////////////////////////////////////////////////////////////////
     
-	@Test (enabled = false)
+	@Test 
 	public void TC_01_CheckUrlAndTitle() {
 				
 		//Check home page title
@@ -59,7 +58,7 @@ public class Topic02_Xpath_CSSLocator {
 		
 	}
 	//////////////////////////////////////////////////////////////////////////////////
-	@Test (enabled = false)
+	@Test 
 	public void TC_02_LoginEmpty() throws InterruptedException{
 		
 		
@@ -82,7 +81,7 @@ public class Topic02_Xpath_CSSLocator {
 		
 	}
 	
-	@Test (enabled = false)
+	@Test 
 	public void TC_03_LoginWithInvalidEmail() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.get("http://live.guru99.com");

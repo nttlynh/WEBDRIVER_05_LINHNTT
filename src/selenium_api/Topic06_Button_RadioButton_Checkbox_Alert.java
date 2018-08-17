@@ -26,7 +26,7 @@ public class Topic06_Button_RadioButton_Checkbox_Alert {
 		
 	  }
 	
-	 @Test (enabled = false)
+	 @Test 
 	  public void TC_01() {
 		 driver.get("http://live.guru99.com/");
 		 driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
@@ -43,7 +43,7 @@ public class Topic06_Button_RadioButton_Checkbox_Alert {
 		 
 	  }
 	 
-	 @Test (enabled = false)
+	 @Test 
 	 public void TC_02(){
 		 driver.get("http://demos.telerik.com/kendo-ui/styling/checkboxes");
 		 String locator = "//label[text()='Dual-zone air conditioning']/preceding-sibling::input";
@@ -55,7 +55,7 @@ public class Topic06_Button_RadioButton_Checkbox_Alert {
 		 
 		 
 	 }
-	 @Test (enabled = false)
+	 @Test 
 	 public void TC_03(){
 		driver.get("http://demos.telerik.com/kendo-ui/styling/radios");
 		String locator = "//label[text()='2.0 Petrol, 147kW']/preceding-sibling::input";
@@ -66,7 +66,7 @@ public class Topic06_Button_RadioButton_Checkbox_Alert {
 		}
 	 }
 	 
-	 @Test (enabled = false)
+	 @Test
 	 public void TC_04() {
 		 driver.get("http://daominhdam.890m.com/");
 		 driver.findElement(By.xpath("//button[text()='Click for JS Alert']")).click();
@@ -78,7 +78,7 @@ public class Topic06_Button_RadioButton_Checkbox_Alert {
 		 Assert.assertEquals(driver.findElement(By.xpath("//p[@id='result']")).getText(), "You clicked an alert successfully");
 	 }
 	 
-	 @Test (enabled = false)
+	 @Test 
 	 public void TC_05(){
 		 driver.get("http://daominhdam.890m.com/");
 		 driver.findElement(By.xpath("//button[text()='Click for JS Confirm']")).click();
