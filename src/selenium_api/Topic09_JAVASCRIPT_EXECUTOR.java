@@ -26,7 +26,7 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
 			driver = new ChromeDriver();
 		}
 		if (os.indexOf( "mac" ) >= 0) {
-			System.setProperty("webdriver.chrome.driver", "//driver//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
 			driver = new ChromeDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
