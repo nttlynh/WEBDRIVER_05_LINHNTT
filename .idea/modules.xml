@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../CRM/AutoTest/CRM_1.0.iml" filepath="$PROJECT_DIR$/../../CRM/AutoTest/CRM_1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/WEBDRIVER_05_LINHNTT.iml" filepath="$PROJECT_DIR$/WEBDRIVER_05_LINHNTT.iml" />
     </modules>
   </component>

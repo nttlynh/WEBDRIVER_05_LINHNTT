@@ -61,6 +61,7 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
 		  
 //		  Step 07 - Open PRIVACY POLICY page (Sử dụng JE), Verify title của page = Privacy Policy (Sử dụng JE)
 		  WebElement privacyElement = driver.findElement(By.xpath("//a[contains(text(), 'Privacy Policy')]"));
+		  highlightElement(privacyElement);
 		  clickForWebElement(privacyElement);
 		  String titlePrivacy = (String) executeForBrowserElement("return document.title;");
 		  Assert.assertEquals(titlePrivacy, "Privacy Policy");
@@ -154,6 +155,7 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
                   return null;
 			  }                        
 		  }
+
 		                        
 		                         
 		              
