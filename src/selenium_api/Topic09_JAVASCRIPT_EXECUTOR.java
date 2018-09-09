@@ -20,14 +20,14 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
 	WebDriver driver;
 	@BeforeClass
 	  public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
 		driver = new ChromeDriver();
-//		System.setProperty("webdriver.ie.driver",".\\driver\\IEDriverServer.exe");
+//		System.setProperty("webdriver.ie.driver","/driver/chromedriver");
 //		driver = new InternetExplorerDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	  }
-	  @Test 
+	  @Test  
 	  public void TC01() {
 		  //Step 01 - Truy cập vào trang: http://live.guru99.com/
 		  driver.get("http://live.guru99.com/");

@@ -24,7 +24,7 @@ public class Topic_01_CheckEnvironment {
 		driver = new FirefoxDriver();
 		}
 		if(OS.indexOf("mac") >=0 ) {
-			System.setProperty("webdriver.chrome.driver", "//driver//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
 			driver = new ChromeDriver();
 		}
 		driver.get("http://live.guru99.com");

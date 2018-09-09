@@ -130,9 +130,9 @@ public class Topic08_IFRAME_WINDOW_POPUP {
 		System.out.println(xxx);
 		
 		//Step 05- Click Privacy Policy link (nằm trong frame) -> Mở ra tab/window mới -> Switch qua tab mới
-		List<WebElement> frameList = driver.findElements(By.xpath("//frame"));
+		List<WebElement> frameList = driver.findElements(By.xpath("//frame[@name='footer'"));
 		System.out.println(frameList.size());
-		driver.switchTo().frame(1);
+		driver.switchTo().frame(0);
 		driver.findElement(By.xpath("//a[contains(text(), 'Privacy Policy')]")).click();
 		
 		//Step 06- Click CSR link on Privacy Policy page

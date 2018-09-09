@@ -15,8 +15,10 @@ import org.testng.annotations.AfterClass;
 
 public class Topic11_UploadFile {
 	WebDriver driver;
+	
 	String projectDirectory = System.getProperty("user.dir");
-	String uploadFilePath = projectDirectory + "/img/img01.png";
+	String filename = "img01.png";
+	String uploadFilePath = projectDirectory + "/img/" + filename;
 	@BeforeClass
 	  public void beforeClass() {
 		System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
@@ -33,7 +35,9 @@ public class Topic11_UploadFile {
 		WebElement uploadElement = driver.findElement(By.xpath("//input[@type='file']"));
 		uploadElement.sendKeys(uploadFilePath);
 		
-		Assert.assertTrue(driver.findElement(By.xpath("//p[@class='name' and text()='img01.png']")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath("//p[@class='name' and text()='" + filename + "']")).isDisplayed());
+		
+		driver.findElement(By.xpath("//table//button[@class='btn btn-primary start']")).click();
 		
 	  }
 	  
