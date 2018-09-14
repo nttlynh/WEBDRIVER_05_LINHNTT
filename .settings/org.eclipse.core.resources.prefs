@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/selenium_api/Customer.java=UTF-8
 encoding//src/selenium_api/Topic03_WebDriverAPI_WebBrowser_WebElementCommands.java=UTF-8
-encoding//src/selenium_api/Topic04_TextBox_TextArea_DropDownList.java=UTF-8
+encoding//src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java=UTF-8
+encoding//src/selenium_api/Topic07_UserInteractions.java=UTF-8
+encoding//src/selenium_api/Topic08_IFRAME_WINDOW_POPUP.java=UTF-8
+encoding//src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java=UTF-8
+encoding//src/selenium_api/Topic10_VERIFY_ASSERT_AND_WAITS.java=UTF-8

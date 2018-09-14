@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b78942f-cb16-4359-9e34-c85df9819822" name="Default" comment="">
+    <list default="true" id="deb65c8d-731d-41bf-b413-473939e25e97" name="Default" comment="Topic11">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/nttly.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/driver/IEDriverServer.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/img01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/img02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/upload/chrome.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/upload/firefox.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/upload/ie.exe" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic03_WebDriverAPI_WebBrowser_WebElementCommands.java" afterPath="$PROJECT_DIR$/src/selenium_api/Topic03_WebDriverAPI_WebBrowser_WebElementCommands.java" />
-      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java" afterPath="$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java" />
+      <change beforePath="$PROJECT_DIR$/src/selenium_api/NewTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic04_TextBox_TextArea_DropDownList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java" afterPath="$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java" />
+      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java" afterPath="$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java" />
+      <change beforePath="$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java" afterPath="$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,112 +29,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Topic_01_CheckEnvironment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java">
+      <file leaf-file-name="CRM_CreateLead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_CreateLead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/selenium_api/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="By.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.53.1.jar!/org/openqa/selenium/By.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="61" column="52" lean-forward="false" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+            <state relative-caret-position="248">
+              <caret line="555" column="4" lean-forward="true" selection-start-line="555" selection-start-column="4" selection-end-line="557" selection-end-column="5" />
               <folding>
-                <marker date="1531797425329" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1531797425329" expanded="false" signature="143:548" ph="..." />
-                <marker date="1531797425329" expanded="true" signature="593:600" ph="{}" />
-                <marker date="1531797425329" expanded="true" signature="637:831" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="880:1090" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="1146:1363" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="1404:1602" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="1646:1851" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="1904:2136" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="2187:2416" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="2468:2683" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="2742:3054" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="3164:3426" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="3453:3464" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="3498:3504" ph=" }" />
-                <marker date="1531797425329" expanded="false" signature="3534:3545" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="3572:3578" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="3651:4776" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="3814:3829" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="3856:3866" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="3936:4181" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="4244:4487" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="4558:4670" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="4704:4719" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="4760:4770" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="4851:5941" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="5014:5029" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="5054:5064" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="5127:5446" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="5516:5834" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="5868:5883" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="5925:5935" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="6007:6785" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="6148:6163" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="6176:6186" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="6256:6444" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="6507:6693" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="6727:6742" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="6769:6779" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="6857:7494" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="7016:7031" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="7056:7066" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="7136:7232" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="7295:7390" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="7424:7439" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="7478:7488" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="7562:8377" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="7708:7723" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="7740:7750" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="7820:8020" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="8083:8281" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="8315:8330" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="8361:8371" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="8456:9121" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="8622:8637" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="8662:8672" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="8742:8845" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="8908:9010" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="9044:9059" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="9105:9115" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="9192:9996" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="9342:9357" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="9374:9384" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="9454:9645" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="9708:9897" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="9931:9946" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="9980:9990" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="10065:10734" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="10236:10251" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="10290:10300" ph=" }" />
-                <marker date="1531797425329" expanded="true" signature="10370:10467" ph="{...}" />
-                <marker date="1531797425329" expanded="true" signature="10530:10626" ph="{...}" />
-                <marker date="1531797425329" expanded="false" signature="10660:10675" ph=" { " />
-                <marker date="1531797425329" expanded="false" signature="10718:10728" ph=" }" />
+                <element signature="method#TC01_CreateLeadWithValidData#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="method#TC02_SearchOwnerBy#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="method#TC03_RequireField#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="method#TC04_FieldNotRequire#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="method#TC05_CreateLeadAndCreateAnotherCheckbox#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="method#selectCustomDropdownList#0;class#CRM_CreateLead#0" expanded="false" />
+                <element signature="e#27982#27983#0" expanded="true" />
+                <element signature="e#28055#28056#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Topic11_UploadFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="201" column="0" lean-forward="true" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9368#9369#0" expanded="true" />
+                <element signature="e#9424#9425#0" expanded="true" />
+                <element signature="e#9460#9461#0" expanded="true" />
+                <element signature="e#9529#9530#0" expanded="true" />
+                <element signature="e#9580#9581#0" expanded="true" />
+                <element signature="e#9609#9610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Template.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRM_Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="158" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="158" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateLead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1955">
+              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomEmail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/RandomEmail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Ran</find>
+      <find>driver</find>
+      <find>lead</find>
+      <find>StringContains</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\TestAutomation\Class\WEBDRIVER_05_LINHNTT\img</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,7 +141,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java" />
+        <option value="$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/RandomEmail.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/Setting.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java" />
+        <option value="$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_Login.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java" />
+        <option value="$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_CreateLead.java" />
+        <option value="$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java" />
       </list>
     </option>
   </component>
@@ -145,10 +163,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="708" />
-    <option name="y" value="7" />
+    <option name="x" value="519" />
+    <option name="y" value="28" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,6 +191,47 @@
           <expand>
             <path>
               <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="attach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CRM_Lead" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM_1" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lead" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEBDRIVER_05_LINHNTT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,22 +245,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="selenium_api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WEBDRIVER_05_LINHNTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEBDRIVER_05_LINHNTT" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/bai-tap-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CRM/AutoTest" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CRM_Lead" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TestAutomation\Class\WEBDRIVER_05_LINHNTT\upload" />
+      <recent name="D:\TestAutomation\CRM\AutoTest\attach" />
+      <recent name="D:\TestAutomation\Class\WEBDRIVER_05_LINHNTT\driver" />
+      <recent name="D:\TestAutomation\Class\WEBDRIVER_05_LINHNTT\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Topic11_UploadFile.TC04_UploadFile">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -261,7 +339,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="Topic_01_CheckEnvironment" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic11_UploadFile (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="selenium_api.*" />
@@ -273,10 +351,138 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="selenium_api" />
-      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic_01_CheckEnvironment" />
+      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic11_UploadFile" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Topic11_UploadFile" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="selenium_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WEBDRIVER_05_LINHNTT" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="selenium_api" />
+      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic11_UploadFile" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Topic11_UploadFile.TC02_AutoIT" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="selenium_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WEBDRIVER_05_LINHNTT" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="selenium_api" />
+      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic11_UploadFile" />
+      <option name="METHOD_NAME" value="TC02_AutoIT" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Topic11_UploadFile.TC03_Robot" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="selenium_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WEBDRIVER_05_LINHNTT" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="selenium_api" />
+      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic11_UploadFile" />
+      <option name="METHOD_NAME" value="TC03_Robot" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Topic11_UploadFile.TC04_UploadFile" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="selenium_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WEBDRIVER_05_LINHNTT" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="selenium_api" />
+      <option name="MAIN_CLASS_NAME" value="selenium_api.Topic11_UploadFile" />
+      <option name="METHOD_NAME" value="TC04_UploadFile" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -326,9 +532,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC02_AutoIT" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile (2)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC03_Robot" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC04_UploadFile" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Topic_01_CheckEnvironment" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC04_UploadFile" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC03_Robot" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile (2)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Topic11_UploadFile.TC02_AutoIT" />
       </list>
     </recent_temporary>
   </component>
@@ -340,29 +557,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b78942f-cb16-4359-9e34-c85df9819822" name="Default" comment="" />
-      <created>1531888289221</created>
+      <changelist id="deb65c8d-731d-41bf-b413-473939e25e97" name="Default" comment="" />
+      <created>1534909151326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1531888289221</updated>
-      <workItem from="1531888292565" duration="341000" />
-      <workItem from="1532574029981" duration="370000" />
+      <updated>1534909151326</updated>
+      <workItem from="1534909156969" duration="14943000" />
+      <workItem from="1534990313560" duration="18438000" />
+      <workItem from="1535077185646" duration="1776000" />
+      <workItem from="1535337111435" duration="13688000" />
+      <workItem from="1535358109621" duration="5435000" />
+      <workItem from="1535423340206" duration="21340000" />
+      <workItem from="1535508300242" duration="12293000" />
+      <workItem from="1535595182014" duration="16287000" />
+      <workItem from="1535681011146" duration="12782000" />
+      <workItem from="1536199454836" duration="6044000" />
+      <workItem from="1536206394955" duration="5871000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Topic_01_CheckEnvironment - 2018.07.18 at 11h 33m 28s.xml">
-      <configuration name="Topic_01_CheckEnvironment" configurationId="TestNG" />
+    <history-entry file="Topic11_UploadFile - 2018.09.06 at 11h 12m 27s.xml">
+      <configuration name="Topic11_UploadFile" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Topic_01_CheckEnvironment - 2018.07.18 at 11h 34m 32s.xml">
-      <configuration name="Topic_01_CheckEnvironment" configurationId="TestNG" />
+    <history-entry file="Topic11_UploadFile - 2018.09.06 at 11h 17m 57s.xml">
+      <configuration name="Topic11_UploadFile" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Topic_01_CheckEnvironment - 2018.07.18 at 11h 35m 51s.xml">
-      <configuration name="Topic_01_CheckEnvironment" configurationId="TestNG" />
+    <history-entry file="Topic11_UploadFile - 2018.09.06 at 11h 17m 59s.xml">
+      <configuration name="Topic11_UploadFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_(2) - 2018.09.06 at 11h 12m 12s.xml">
+      <configuration name="Topic11_UploadFile (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC03_Robot - 2018.09.06 at 11h 36m 36s.xml">
+      <configuration name="Topic11_UploadFile.TC03_Robot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC03_Robot - 2018.09.06 at 11h 55m 22s.xml">
+      <configuration name="Topic11_UploadFile.TC03_Robot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC04_UploadFile - 2018.09.06 at 11h 55m 51s.xml">
+      <configuration name="Topic11_UploadFile.TC04_UploadFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC04_UploadFile - 2018.09.06 at 12h 07m 21s.xml">
+      <configuration name="Topic11_UploadFile.TC04_UploadFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC04_UploadFile - 2018.09.06 at 12h 08m 58s.xml">
+      <configuration name="Topic11_UploadFile.TC04_UploadFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Topic11_UploadFile_TC04_UploadFile - 2018.09.06 at 12h 10m 43s.xml">
+      <configuration name="Topic11_UploadFile.TC04_UploadFile" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="711000" />
+    <option name="totallyTimeSpent" value="128897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,17 +617,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29329005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3652174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17324094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -392,10 +640,38 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39782608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -403,12 +679,463 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Topic11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic11" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_CreateLead.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java">
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="158" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="127" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/RandomEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" column="146" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="146" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic10_VERIFY_ASSERT_AND_WAITS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="72" column="105" lean-forward="true" selection-start-line="72" selection-start-column="105" selection-end-line="72" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9368#9369#0" expanded="true" />
+            <element signature="e#9424#9425#0" expanded="true" />
+            <element signature="e#9460#9461#0" expanded="true" />
+            <element signature="e#9529#9530#0" expanded="true" />
+            <element signature="e#9580#9581#0" expanded="true" />
+            <element signature="e#9609#9610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" column="146" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="146" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic10_VERIFY_ASSERT_AND_WAITS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="70" column="100" lean-forward="false" selection-start-line="70" selection-start-column="100" selection-end-line="70" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9368#9369#0" expanded="true" />
+            <element signature="e#9424#9425#0" expanded="true" />
+            <element signature="e#9460#9461#0" expanded="true" />
+            <element signature="e#9529#9530#0" expanded="true" />
+            <element signature="e#9580#9581#0" expanded="true" />
+            <element signature="e#9609#9610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="140" column="77" lean-forward="false" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="176" column="9" lean-forward="false" selection-start-line="176" selection-start-column="9" selection-end-line="177" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="140" column="77" lean-forward="true" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="176" column="9" lean-forward="true" selection-start-line="176" selection-start-column="9" selection-end-line="177" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/RandomEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic02_Xpath_CSSLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic03_WebDriverAPI_WebBrowser_WebElementCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic06_Button_RadioButton_Checkbox_Alert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1274">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Setting.java" />
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/RandomEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic02_Xpath_CSSLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic07_UserInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="140" column="77" lean-forward="false" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic10_VERIFY_ASSERT_AND_WAITS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="48" column="146" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="146" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/RandomEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic04_Topic05_TextBox_TextArea_DropDownList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="188" column="26" lean-forward="false" selection-start-line="188" selection-start-column="26" selection-end-line="188" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic09_JAVASCRIPT_EXECUTOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="158" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/Lead/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CRM/AutoTest/src/CRM_Lead/CRM_CreateLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="555" column="4" lean-forward="true" selection-start-line="555" selection-start-column="4" selection-end-line="557" selection-end-column="5" />
+          <folding>
+            <element signature="method#TC01_CreateLeadWithValidData#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="method#TC02_SearchOwnerBy#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="method#TC03_RequireField#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="method#TC04_FieldNotRequire#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="method#TC05_CreateLeadAndCreateAnotherCheckbox#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="method#selectCustomDropdownList#0;class#CRM_CreateLead#0" expanded="false" />
+            <element signature="e#27982#27983#0" expanded="true" />
+            <element signature="e#28055#28056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/IEDriverServer.exe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -416,185 +1143,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.53.1.jar!/org/openqa/selenium/By.class">
+    <entry file="file://$PROJECT_DIR$/upload/chrome.exe">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-          <folding>
-            <marker date="1531797425329" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1531797425329" expanded="false" signature="143:548" ph="..." />
-            <marker date="1531797425329" expanded="true" signature="593:600" ph="{}" />
-            <marker date="1531797425329" expanded="true" signature="637:831" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="880:1090" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1146:1363" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1404:1602" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1646:1851" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1904:2136" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2187:2416" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2468:2683" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2742:3054" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="3164:3426" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="3453:3464" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3498:3504" ph=" }" />
-            <marker date="1531797425329" expanded="false" signature="3534:3545" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3572:3578" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="3651:4776" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="3814:3829" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3856:3866" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="3936:4181" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="4244:4487" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="4558:4670" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="4704:4719" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="4760:4770" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="4851:5941" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="5014:5029" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="5054:5064" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="5127:5446" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="5516:5834" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="5868:5883" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="5925:5935" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6007:6785" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="6148:6163" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="6176:6186" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6256:6444" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="6507:6693" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="6727:6742" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="6769:6779" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6857:7494" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7016:7031" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7056:7066" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7136:7232" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="7295:7390" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7424:7439" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7478:7488" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7562:8377" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7708:7723" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7740:7750" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7820:8020" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="8083:8281" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="8315:8330" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="8361:8371" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="8456:9121" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="8622:8637" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="8662:8672" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="8742:8845" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="8908:9010" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9044:9059" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9105:9115" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="9192:9996" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9342:9357" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9374:9384" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="9454:9645" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="9708:9897" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9931:9946" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9980:9990" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="10065:10734" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="10236:10251" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="10290:10300" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="10370:10467" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="10530:10626" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="10660:10675" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="10718:10728" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.53.1.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="61" column="52" lean-forward="false" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-          <folding>
-            <marker date="1531797425329" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1531797425329" expanded="false" signature="143:548" ph="..." />
-            <marker date="1531797425329" expanded="true" signature="593:600" ph="{}" />
-            <marker date="1531797425329" expanded="true" signature="637:831" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="880:1090" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1146:1363" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1404:1602" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1646:1851" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="1904:2136" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2187:2416" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2468:2683" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="2742:3054" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="3164:3426" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="3453:3464" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3498:3504" ph=" }" />
-            <marker date="1531797425329" expanded="false" signature="3534:3545" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3572:3578" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="3651:4776" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="3814:3829" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="3856:3866" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="3936:4181" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="4244:4487" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="4558:4670" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="4704:4719" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="4760:4770" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="4851:5941" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="5014:5029" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="5054:5064" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="5127:5446" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="5516:5834" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="5868:5883" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="5925:5935" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6007:6785" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="6148:6163" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="6176:6186" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6256:6444" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="6507:6693" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="6727:6742" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="6769:6779" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="6857:7494" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7016:7031" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7056:7066" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7136:7232" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="7295:7390" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7424:7439" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7478:7488" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7562:8377" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="7708:7723" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="7740:7750" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="7820:8020" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="8083:8281" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="8315:8330" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="8361:8371" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="8456:9121" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="8622:8637" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="8662:8672" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="8742:8845" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="8908:9010" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9044:9059" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9105:9115" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="9192:9996" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9342:9357" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9374:9384" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="9454:9645" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="9708:9897" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="9931:9946" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="9980:9990" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="10065:10734" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="10236:10251" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="10290:10300" ph=" }" />
-            <marker date="1531797425329" expanded="true" signature="10370:10467" ph="{...}" />
-            <marker date="1531797425329" expanded="true" signature="10530:10626" ph="{...}" />
-            <marker date="1531797425329" expanded="false" signature="10660:10675" ph=" { " />
-            <marker date="1531797425329" expanded="false" signature="10718:10728" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic_01_CheckEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/selenium_api/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/selenium_api/Topic11_UploadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="331">
+          <caret line="201" column="0" lean-forward="true" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9368#9369#0" expanded="true" />
+            <element signature="e#9424#9425#0" expanded="true" />
+            <element signature="e#9460#9461#0" expanded="true" />
+            <element signature="e#9529#9530#0" expanded="true" />
+            <element signature="e#9580#9581#0" expanded="true" />
+            <element signature="e#9609#9610#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -32,7 +32,7 @@ public class Topic07_UserInteractions {
 		
 	  }
 
-	@Test 
+	@Test (enabled = false)
 	public void TC_01_HoverMouse() throws InterruptedException {
 		driver.get("http://daominhdam.890m.com/");
 		WebElement element = driver.findElement(By.xpath("//a[text()='Hover over me']"));
@@ -58,7 +58,7 @@ public class Topic07_UserInteractions {
 	  } 
 	
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_02_ClickandHold() throws InterruptedException {
 		driver.get("http://jqueryui.com/resources/demos/selectable/display-grid.html");
 		
@@ -78,7 +78,7 @@ public class Topic07_UserInteractions {
 		
 	}
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_02_ClickandHold_Shift() throws InterruptedException {
 		driver.get("http://jqueryui.com/resources/demos/selectable/display-grid.html");
 		
@@ -99,7 +99,7 @@ public class Topic07_UserInteractions {
 	}
 	
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_03_DoubleClick() throws InterruptedException {
 		driver.get("http://www.seleniumlearn.com/double-click");
 		WebElement doubleElement = driver.findElement(By.xpath("//button[text()='Double-Click Me!']"));
@@ -113,7 +113,7 @@ public class Topic07_UserInteractions {
 		alert.accept();
 	}
 	
-	@Test 
+	@Test (enabled = false)
 	public void TC_04_RightClick(){
 		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
 		WebElement clickrightElement = driver.findElement(By.xpath("//span[text()='right click me']"));

@@ -18,12 +18,17 @@ import org.testng.annotations.AfterClass;
 
 public class Topic09_JAVASCRIPT_EXECUTOR {
 	WebDriver driver;
+	String os = System.getProperty("os.name").toLowerCase();
 	@BeforeClass
 	  public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
-		driver = new ChromeDriver();
-//		System.setProperty("webdriver.ie.driver","/driver/chromedriver");
-//		driver = new InternetExplorerDriver();
+		if (os.indexOf( "win" ) >= 0) {
+			System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+		if (os.indexOf( "mac" ) >= 0) {
+			System.setProperty("webdriver.chrome.driver", "driver//chromedriver");
+			driver = new ChromeDriver();
+		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	  }
@@ -56,6 +61,7 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
 		  
 //		  Step 07 - Open PRIVACY POLICY page (Sử dụng JE), Verify title của page = Privacy Policy (Sử dụng JE)
 		  WebElement privacyElement = driver.findElement(By.xpath("//a[contains(text(), 'Privacy Policy')]"));
+		  highlightElement(privacyElement);
 		  clickForWebElement(privacyElement);
 		  String titlePrivacy = (String) executeForBrowserElement("return document.title;");
 		  Assert.assertEquals(titlePrivacy, "Privacy Policy");
@@ -149,6 +155,7 @@ public class Topic09_JAVASCRIPT_EXECUTOR {
                   return null;
 			  }                        
 		  }
+
 		                        
 		                         
 		              

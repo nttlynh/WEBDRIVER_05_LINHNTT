@@ -62,7 +62,7 @@ public class Topic04_Topic05_TextBox_TextArea_DropDownList {
 		 
 	  }
 	 
-	 @Test 
+	 @Test (enabled = false)
 	 public void TC02_HandleTextbox_TextArea() throws InterruptedException {
 		 Customer cus = new Customer();
 		 driver.get("http://demo.guru99.com/v4");
@@ -135,7 +135,7 @@ public class Topic04_Topic05_TextBox_TextArea_DropDownList {
 	 }
 	 
 	 
-	 @Test
+	 @Test (enabled = false)
 	  public void TC03_HandleCustomDropdownList() {
 		 driver.get("http://jqueryui.com/resources/demos/selectmenu/default.html");
 		 List<WebElement> listNumber = driver.findElements(By.xpath("//*[@id=\"number\"]/option"));
